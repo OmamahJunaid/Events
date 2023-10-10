@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- CHAPTER "EVENTS" -->
+    <!-- Q1 -->
+    <h1 onclick="alert('welcome')">hello </h1>
+    <!-- Q2 -->
+    <h1 onmouseover="this.style.display='none' ">hidden</h1>
+    <!-- Q3 -->
+    <a href="#" onmouseover="this.style.color='red'" onmouseout="this.style.color='purple'">Links</a> <br>
+    <!-- Q4 -->
+    <!-- Q5 -->
+    <audio src="/audio/mixkit-arcade-game-jump-coin-216.wav" id="ado"></audio>
+    <a href="#" onclick="document.getElementById('ado').play()" > sounds</a> <br>
+
+    <!-- Q6 -->
+    <a href="#" target="_blank"> new window</a> <br>
+    <!-- Q7 -->
+    <button onclick="alert('helloword')">alert</button> <br>
+    <!-- Q8 -->
+    <button onmouseover="this.style.backgroundColor='pink'">color change</button> <br>
+    <!-- Q9 -->
+    <audio src="/audio/mixkit-arcade-game-jump-coin-216.wav" id="ad"></audio>
+    <button onclick="document.getElementById('ad').play()">click</button> <br>
+    <!-- Q10 -->
+    <h1 onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'">change color</h1>
+    <!-- Q11 -->
+    <h1 onmouseout="this.style.display='none' ">hidden</h1>
+    <!-- Q12 -->
+    <!-- CHAPTER "READING AND SETTING FEILDS" -->
+    <!-- Q1 -->
+    <input type="text" id="name">
+    <button onclick="getInput()">click</button> <br>
+    <!-- Q2 -->
+    <!-- Q4 -->
+    <input onclick="getInputTwo()"  type="text" id="nameTwo"> <br>
+    <!-- Q5 -->
+    <label for="status"> Martial Status</label>
+    <input type="text" name="status"  id="sts">
+    <button onclick="getStatus()" >SUBMIT</button> <br>
+    <!-- Q6 -->
+    <input id="input" type="text">
+    <button onclick="getIn()" >SUBMIT</button> <br>
+    <!-- Q7 -->
+    
+  
+
+</body>
+<script src="app.js"></script>
+</html>
